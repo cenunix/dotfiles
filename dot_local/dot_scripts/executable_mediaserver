@@ -1,0 +1,28 @@
+#!/bin/sh
+function start() {
+    rclone-linux mount my-remote: /media --vfs-cache-mode full --dir-cache-time 10s --vfs-cache-max-age 10h --vfs-cache-max-size 200g --allow-other &
+    sleep 2
+    sudo systemctl start plexmediaserver.service
+    sleep 2
+    podman run -d --name plex_debrid -v /home/user/Personal/repos/plex_debrid/:/config --net host -ti itstoggle/plex_debrid &
+    sleep 2
+    podman run -d --name=jackett -e PUID=1000 -e PGID=1000 -e TZ=Etc/UTC -e AUTO_UPDATE=true `#optional` -e RUN_OPTS= `#optional` -p 9117:9117 -v /home/user/Personal/repos/jackett:/config -v /dev/null:/downloads --restart unless-stopped lscr.io/linuxserver/jackett:latest &
+    sleep 2
+}
+
+function stop() {
+    # Stop shit
+    killall rclone-linux &
+    sudo systemctl stop plexmediaserver.service
+    podman stop -a &
+    sleep 10
+    podman ps -a
+    sleep 5
+    podman rm -a
+}
+
+case "$1" in
+	"start") start;;
+	"stop") stop;;
+	*) echo "unknown command" && exit 1;;
+esac

@@ -1,0 +1,86 @@
+[[themes]]
+name = "Iceberg"
+[themes.palette]
+background = "#1f212e"
+foreground = "#ffffff"
+black = "#1f212e"
+blue = "#7486a9"
+cyan = "#b6d8e2"
+green = "#99e6bf"
+magenta = "#d6b8e0"
+red = "#e2b6b6"
+white = "#ffffff"
+yellow = "#e2e2b6"
+bright_black = "#1f212e"
+bright_blue = "#7486a9"
+bright_cyan = "#b6d8e2"
+bright_green = "#99e6bf"
+bright_magenta = "#d6b8e0"
+bright_red = "#e2b6b6"
+bright_white = "#ffffff"
+bright_yellow = "#e2e2b6"
+selection_background = "#363A4F"
+selection_foreground = "#ffffff"
+
+[themes.component_style]
+block_title = { fg = "Cyan"  }
+playback_track = { fg = "Blue", modifiers = ["Bold"] }
+playback_album = { fg = "Blue" }
+playback_metadata = { fg = "Blue" }
+playback_progress_bar = { bg = "Blue", fg = "Cyan" }
+current_playing = { fg = "Blue", modifiers = ["Bold"] }
+page_desc = { fg = "Cyan", modifiers = ["Bold"] }
+table_header = { fg = "Blue" }
+
+
+# example theme configuration file
+# This file adds two new themes `dracula2` and `solarized_dark`
+# in addition to the default application's themes.
+
+[[themes]]
+name = "dracula2"
+[themes.palette]
+background = "#1e1f29"
+foreground = "#f8f8f2"
+black = "#000000"
+blue = "#bd93f9"
+cyan = "#8be9fd"
+green = "#50fa7b"
+magenta = "#ff79c6"
+red = "#ff5555"
+white = "#bbbbbb"
+yellow = "#f1fa8c"
+bright_black = "#555555"
+bright_blue = "#bd93f9"
+bright_cyan = "#8be9fd"
+bright_green = "#50fa7b"
+bright_magenta = "#ff79c6"
+bright_red = "#ff5555"
+bright_white = "#ffffff"
+bright_yellow = "#f1fa8c"
+selection_background = "#44475a"
+selection_foreground =  "#ffffff"
+
+[[themes]]
+name = "solarized_dark"
+[themes.palette]
+background = "#002b36"
+foreground = "#839496"
+black = "#073642"
+blue = "#268bd2"
+cyan = "#2aa198"
+green = "#859900"
+magenta = "#d33682"
+red = "#dc322f"
+white = "#eee8d5"
+yellow = "#b58900"
+bright_black = "#002b36"
+bright_blue = "#839496"
+bright_cyan = "#93a1a1"
+bright_green = "#586e75"
+bright_magenta = "#6c71c4"
+bright_red = "#cb4b16"
+bright_white = "#fdf6e3"
+bright_yellow = "#657b83"
+selection_background = "#073642"
+selection_foreground =  "#93a1a1"

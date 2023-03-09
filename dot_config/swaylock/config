@@ -1,0 +1,39 @@
+# indicator
+# no-unlock-indicator
+# daemonize
+
+indicator-caps-lock
+# datestr=%A
+# image=$("cat ~/.config/hypr/scripts/variables/temp/background")
+scaling=fill
+font=JetBrainsMono Nerd Font
+font-size=32
+
+clock
+indicator
+
+fade-in=0.2
+effect-blur=8x5
+effect-vignette=0.5:0.5
+timestr=%I:%M:%S
+datestr=%d.%m
+
+
+# Ring
+indicator-radius=200
+indicator-thickness=20
+# line-uses-ring
+line-color=#5B6078
+text-color=#ffffff
+inside-color=#1f212e
+inside-ver-color=#ffffff
+line-ver-color=#ffffff
+ring-ver-color=#ffffff
+ring-color=#1f212e
+key-hl-color=#494D64
+separator-color=#494D64
+layout-text-color=#494D64
+line-wrong-color=#ffffff
+ring-wrong-color=#ffffff
+inside-wrong-color=#ffffff
+
