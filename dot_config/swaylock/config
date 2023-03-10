@@ -25,11 +25,11 @@ indicator-thickness=20
 # line-uses-ring
 line-color=#515977
 text-color=#E4F0FB
-inside-color=#1B1E28
+inside-color=#14151e
 inside-ver-color=#E4F0FB
 line-ver-color=#E4F0FB
 ring-ver-color=#E4F0FB
-ring-color=#1B1E28
+ring-color=#14151e
 key-hl-color=#303340
 separator-color=#303340
 layout-text-color=#303340

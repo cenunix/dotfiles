@@ -1,7 +1,7 @@
 window {
   margin: 0px;
   border: 5px solid #303347;
-  background-color: #1b1e28;
+  background-color: #14151e;
   font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free Solid";
   font-size: 13px;
 }
@@ -26,7 +26,7 @@ window {
   border: none;
   color: #ffffff;
   font-weight: bold;
-  background-color: #1b1e28;
+  background-color: #14151e;
   outline: none;
   border-radius: 15px;
   margin: 10px;
@@ -44,7 +44,7 @@ window {
   margin: 0px;
   padding: 3px;
   border: none;
-  border: 5px solid #1b1e28;
+  border: 5px solid #14151e;
 }
 
 #scroll {
@@ -55,7 +55,7 @@ window {
 }
 
 #text:selected {
-  color: #1b1e28;
+  color: #14151e;
   margin: 0px 0px;
   border: none;
   border-radius: 15px;
