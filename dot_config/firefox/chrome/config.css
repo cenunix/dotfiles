@@ -19,14 +19,14 @@
   --ap-secondary-l: 58%;
   --ap-secondary-d: 70%;
   --ap-secondary: hsl(var(--ap-secondary-h), var(--ap-secondary-s), var(--ap-secondary-l));
-  --ap-base1-h: 226;
-  --ap-base1-s: 19%;
-  --ap-base1-l: 13%;
+  --ap-base1-h: 234;
+  --ap-base1-s: 20%;
+  --ap-base1-l: 10%;
   --ap-base1-d: 10%;
   --ap-base0: hsl(var(--ap-base0-h), var(--ap-base0-s), var(--ap-base0-l));
-  --ap-base0-h: 226;
-  --ap-base0-s: 19%;
-  --ap-base0-l: 13%;
+  --ap-base0-h: 234;
+  --ap-base0-s: 20%;
+  --ap-base0-l: 10%;
   --ap-base0-d: 13%;
   --ap-base1: hsl(var(--ap-base1-h), var(--ap-base1-s), var(--ap-base1-l));
   --ap-red: #FCC5E9;
@@ -39,9 +39,9 @@
   --ap-color-strong: #e2b6b6;
   --ap-color-quote: #e2b6b6;
   --ap-color-italic: #e2b6b6;
-  --ap-color-tag-background: #1f212e;
+  --ap-color-tag-background: #14151e;
   --ap-color-tag-text: #ffffff;
-  --ap-code-gray-1: #242736;
+  --ap-code-gray-1: #303340;
   --ap-code-gray-2: #282a3b;
   --ap-code-red: var(--ap-red);
   --ap-code-green: var(--ap-green);
@@ -144,9 +144,9 @@ one that stays (static)
 }
 
 :root[privatebrowsingmode=temporary] {
-  --dark-0: #1f212e;
-  --dark-base: #1f212e;
-  --dark-1: #242736;
+  --dark-0: #14151e;
+  --dark-base: #14151e;
+  --dark-1: #303340;
   --dark-2: #282a3b;
   --dark-3: #303347;
   --dark-4: #34364c;
