@@ -18,14 +18,14 @@ for some information on how to change these variables...
   --ap-secondary-l: 58%;
   --ap-secondary-d: 70%;
   --ap-secondary: hsl(var(--ap-secondary-h), var(--ap-secondary-s), var(--ap-secondary-l));
-  --ap-base1-h: 232;
+  --ap-base1-h: 226;
   --ap-base1-s: 19%;
-  --ap-base1-l: 15%;
+  --ap-base1-l: 13%;
   --ap-base1-d: 10%;
   --ap-base0: hsl(var(--ap-base0-h), var(--ap-base0-s), var(--ap-base0-l));
-  --ap-base0-h: 232;
+  --ap-base0-h: 226;
   --ap-base0-s: 19%;
-  --ap-base0-l: 15%;
+  --ap-base0-l: 13%;
   --ap-base0-d: 13%;
   --ap-base1: hsl(var(--ap-base1-h), var(--ap-base1-s), var(--ap-base1-l));
   --ap-red: #e2b6b6;

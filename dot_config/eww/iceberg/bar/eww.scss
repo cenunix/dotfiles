@@ -48,7 +48,7 @@ tooltip {
 
 .start-eventbox:hover {
 	color: $bg;
-	background-color: $mauve;
+	background-color: $teal;
 }
 
 .start-btn {
@@ -141,7 +141,7 @@ tooltip {
 .updates {
 	font-size: 14px;
 	font-weight: bold;
-	background-color: $mint;
+	background-color: $blue;
 	color: $bg;
 	border-radius: 8px;
 	padding: 0.225rem 0.6rem;
@@ -227,7 +227,7 @@ tooltip {
 	color: $bg;
 
 	.bat-icon.high {
-		background-color: $teal;
+		background-color: $blue;
 	}
 
 	.bat-icon.med {
@@ -259,7 +259,7 @@ tooltip {
 	}
 
 	scale.bat-scale.high trough {
-		background-color: $teal;
+		background-color: $blue;
 	}
 
 	scale.bat-scale.med trough {
@@ -295,7 +295,7 @@ tooltip {
 	font-weight: bold;
 	font-size: 14px;
 	color: $bg;
-	background-color: $mauve;
+	background-color: $blue;
 	border-radius: 8px;
 }
 

@@ -63,21 +63,21 @@
     history = ctrl+grave
     context = ctrl+shift+period
 [urgency_low]
-    background = "#1f212e"
-    foreground = "#ffffff"
-    highlight = "#ffffff"
+    background = "#1B1E28"
+    foreground = "#E4F0FB"
+    highlight = "#E4F0FB"
     #script = /home/morpheus/.config/dunst/dunstscript.sh
     timeout = 10
 [urgency_normal]
-    background = "#1f212e"
-    foreground = "#ffffff"
-    highlight = "#ffffff"
+    background = "#1B1E28"
+    foreground = "#E4F0FB"
+    highlight = "#E4F0FB"
     #script = /home/morpheus/.config/dunst/dunstscript.sh
     timeout = 10
 [urgency_critical]
-    background = "#1f212e"
-    foreground = "#ffffff"
-    highlight = "#ffffff"
+    background = "#1B1E28"
+    foreground = "#E4F0FB"
+    highlight = "#E4F0FB"
     frame_color = "#e2b6b6"
     timeout = 0  
 [screenshots]

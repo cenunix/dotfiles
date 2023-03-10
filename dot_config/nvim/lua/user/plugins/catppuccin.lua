@@ -1,7 +1,8 @@
 return {
-  "Selmer443/iceberg-nvim",
+  "Selmer443/poimandres.nvim",
   name = "catppuccin",
   opts = {
+    flavour = "poimandres", -- latte, frappe, macchiato, mocha
     dim_inactive = { enabled = true, percentage = 0.25 },
     integrations = {
       nvimtree = false,
