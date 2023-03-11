@@ -146,14 +146,14 @@ foreground = '#E6ECFE'
 gradient = 1
 gradient_count = 8
 
-gradient_color_1 = '#5b6079'
-gradient_color_2 = '#5e637c'
-gradient_color_3 = '#606580'
-gradient_color_4 = '#636883'
-gradient_color_5 = '#656b87'
-gradient_color_6 = '#686d8a'
-gradient_color_7 = '#6a708d'
-gradient_color_8 = '#6d7391'
+gradient_color_1 = '#add7ff'
+gradient_color_2 = '#afd8ff'
+gradient_color_3 = '#b2d9ff'
+gradient_color_4 = '#b4dbff'
+gradient_color_5 = '#b7dcff'
+gradient_color_6 = '#b9ddff'
+gradient_color_7 = '#bcdeff'
+gradient_color_8 = '#bedfff'
 
 
 
